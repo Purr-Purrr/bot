@@ -2,8 +2,8 @@ from aiogram import F, Router
 from aiogram.types import Message, CallbackQuery
 from aiogram.filters import CommandStart
 
-import app.keyboards as kb
-import app.database.requests as rq
+import keyboards as kb
+import database.requests as rq
 
 router = Router()
 
